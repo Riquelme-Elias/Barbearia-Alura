@@ -1,5 +1,10 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header {
 	background: #BBBBBB;
+	padding: 20px 0;
 }
 
 .caixa {
@@ -55,7 +60,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #088C19;
+	border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
@@ -66,7 +71,6 @@ nav a:hover {
 	font-size: 30px;
 	font-weight: bold;
 }
-
 
 .produto-descricao {
 	font-size: 18px;
@@ -81,6 +85,7 @@ nav a:hover {
 footer {
 	text-align: center;
 	background: url("bg.jpg");
+	padding: 40px 0;
 }
 
 .copyright {
@@ -98,16 +103,16 @@ form {
 	margin: 40px 0;
 }
 
-form label, form legend{
-	display: block;
+form label, form legend {
+	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
 
-.inpute-padrao {
+.input-padrao {
 	display: block;
 	margin: 0 0 20px;
-	padding: 10px 20px;
+	padding: 10px 25px;
 	width: 50%;
 }
 
@@ -116,7 +121,7 @@ form label, form legend{
 }
 
 .enviar {
-	width: 40%;
+	width:40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
@@ -145,5 +150,69 @@ thead {
 
 td, th {
 	border: 1px solid #000000;
-	padding: 8px 15px ;
+	padding: 8px 15px;
+}
+
+
+/* css da página inicial */
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imagem-beneficios {
+	width: 60%;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
