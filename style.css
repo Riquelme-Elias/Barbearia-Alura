@@ -252,7 +252,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.principal, .conteudo-beneficios, .mapa-conteudo {
+	.principal, .conteudo-beneficios, .mapa-conteudo, .produtos {
 		width: auto;
 		margin: 10px;
 	}
@@ -279,5 +279,11 @@ td, th {
 
 	form {	
 		position: absolute;
+	}
+
+	.produtos li {
+		width: auto;
+		margin: 5%;
+		display: block;
 	}
 }
