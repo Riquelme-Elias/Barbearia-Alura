@@ -114,6 +114,11 @@ form label, form legend{
 	width: 50%;
 }
 
+select {
+	font-size: 1.2em;
+	width: 100px;
+}
+
 .checkbox {
 	display: inline-block;
 	margin: 20px 0;
@@ -252,7 +257,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.principal, .conteudo-beneficios, .mapa-conteudo, .produtos {
+	.principal, .conteudo-beneficios, .mapa-conteudo, .produtos, form {
 		width: auto;
 		margin: 10px;
 	}
@@ -277,13 +282,14 @@ td, th {
 		margin: 30px 10px;
 	}
 
-	form {	
-		position: absolute;
-	}
-
 	.produtos li {
 		width: auto;
 		margin: 5%;
 		display: block;
+	}
+
+	.input-padrao, .enviar {
+		display: block;
+		width: -webkit-fill-available;
 	}
 }
